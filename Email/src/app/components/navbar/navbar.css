@@ -1,0 +1,4 @@
+.blue-toolbar {
+  background-color: rgb(76, 0, 255); /* Blue 500 */
+  color: white; /* ensures icon/text is visible */
+}
