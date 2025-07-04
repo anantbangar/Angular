@@ -1,0 +1,12 @@
+<header class="text-center py-4 bg-primary text-white shadow">
+  <h1 class="m-0">Support Our Cause</h1>
+  <p class="lead m-0">Your donation helps us make a difference</p>
+</header>
+
+<div class="d-flex justify-content-center align-items-center mt-4">
+  <div class="text-center bg-white p-5 rounded shadow" style="min-width: 350px;">
+    <h2 class="mb-4">Donate Us</h2>
+    <input type="number" [(ngModel)]="amount" class="form-control mb-3" placeholder="Enter Amount" required />
+    <button [disabled]="isPaymentProcessing" (click)="paymentStart()" class="btn btn-primary w-100">Pay</button>
+  </div>
+</div>

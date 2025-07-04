@@ -35,7 +35,11 @@
               }
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
+            ],
+            "scripts": [
+              "node_modules/sweetalert/dist/sweetalert.min.js"
             ]
           },
           "configurations": {
@@ -91,9 +95,9 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ]
+            "styles": [              
+              "src/styles.css"              
+            ]            
           }
         }
       }
